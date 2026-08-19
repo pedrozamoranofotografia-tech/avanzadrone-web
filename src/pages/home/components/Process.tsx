@@ -28,8 +28,8 @@ export default function Process() {
                   {step.description}
                 </p>
                 {i < processSteps.length - 1 && (
-                  <span className="hidden lg:flex absolute top-1/2 -right-4 w-8 items-center justify-center text-background-600">
-                    <i className="ri-arrow-right-line"></i>
+                  <span className="hidden lg:flex absolute top-6 -right-4 w-8 h-8 items-center justify-center rounded-full bg-background-800/80 text-accent-400 border border-background-700">
+                    <i className="ri-arrow-right-line text-sm"></i>
                   </span>
                 )}
               </div>

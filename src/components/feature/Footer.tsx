@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 import { brand } from "@/mocks/home";
 
 const serviceLinks = [
-  "Inspecciones con drones",
-  "Termografía aérea",
-  "Topografía y cartografía",
-  "Fotogrametría 3D",
-  "Seguimiento de obras",
+  { label: "Inspecciones con drones", slug: "inspecciones-drones" },
+  { label: "Termografía aérea", slug: "termografia-drones" },
+  { label: "Topografía y cartografía", slug: "topografia-drones" },
+  { label: "Fotogrametría 3D", slug: "fotogrametria-drones" },
+  { label: "Seguimiento de obras", slug: "seguimiento-obras-drones" },
 ];
 
 export default function Footer() {
@@ -52,13 +52,13 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5">
               {serviceLinks.map((s) => (
-                <li key={s}>
-                  <a
-                    href="#servicios"
+                <li key={s.slug}>
+                  <Link
+                    to={`/${s.slug}`}
                     className="text-sm text-foreground-400 hover:text-foreground-100 transition-colors"
                   >
-                    {s}
-                  </a>
+                    {s.label}
+                  </Link>
                 </li>
               ))}
             </ul>

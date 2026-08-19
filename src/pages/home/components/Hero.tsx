@@ -1,16 +1,33 @@
-import { heroImage, trustIndicators, brand } from "@/mocks/home";
+import { useEffect, useState } from "react";
+import { heroImages, trustIndicators, brand } from "@/mocks/home";
+
+const INTERVAL = 6000;
 
 export default function Hero() {
+  const [active, setActive] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActive((prev) => (prev + 1) % heroImages.length);
+    }, INTERVAL);
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <section className="relative w-full min-h-screen flex flex-col overflow-hidden bg-background-950">
-      {/* Fondo cinematográfico con efecto Ken Burns */}
+      {/* Fondo cinematográfico tipo slideshow con crossfade */}
       <div className="absolute inset-0">
-        <img
-          src={heroImage}
-          alt="Vista aérea de una planta solar al atardecer"
-          title={`Inspección aérea con drones - ${brand.name}`}
-          className="w-full h-full object-cover object-top animate-kenburns"
-        />
+        {heroImages.map((src, i) => (
+          <img
+            key={src}
+            src={src}
+            alt={`Vista aérea espectacular con dron ${i + 1} - ${brand.name}`}
+            title={`Inspección aérea con drones - ${brand.name}`}
+            className={`absolute inset-0 w-full h-full object-cover object-top transition-opacity duration-[1500ms] ease-in-out ${
+              i === active ? "opacity-100 animate-kenburns" : "opacity-0"
+            }`}
+          />
+        ))}
         <div className="absolute inset-0 bg-gradient-to-b from-background-950/70 via-background-950/40 to-background-950"></div>
       </div>
 
@@ -74,6 +91,21 @@ export default function Hero() {
             ))}
           </div>
         </div>
+      </div>
+
+      {/* Puntos de navegación del slideshow */}
+      <div className="relative z-10 flex items-center justify-center gap-2 pb-8">
+        {heroImages.map((_, i) => (
+          <button
+            key={i}
+            type="button"
+            onClick={() => setActive(i)}
+            aria-label={`Ver imagen ${i + 1}`}
+            className={`h-2 rounded-full transition-all duration-500 cursor-pointer ${
+              i === active ? "w-8 bg-accent-400" : "w-2 bg-foreground-300/50 hover:bg-foreground-300"
+            }`}
+          />
+        ))}
       </div>
     </section>
   );

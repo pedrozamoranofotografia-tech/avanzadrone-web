@@ -7,8 +7,14 @@ export const brand = {
   logo: "https://storage.helloreaddy.io/project_files/fb7f22ec-1338-4511-b03d-4a3896890b1d/2102015e-abaa-4b4f-9897-417c236b05a5_compressed_ChatGPT-Image-19-ago-2026-17_48_59.webp",
 };
 
-export const heroImage =
-  "https://readdy.ai/api/search-image?query=Cinematic%20aerial%20drone%20view%20of%20a%20vast%20solar%20panel%20farm%20at%20golden%20hour%2C%20warm%20amber%20sunlight%20reflecting%20off%20panels%2C%20geometric%20precision%2C%20dark%20moody%20teal%20shadows%2C%20industrial%20atmosphere%2C%20high%20detail%20editorial%20photography%2C%20dramatic%20lighting%2C%20clean%20composition&width=1600&height=900&seq=hero-drone-01&orientation=landscape";
+export const heroImages = [
+  "https://readdy.ai/api/search-image?query=Epic%20cinematic%20aerial%20photograph%20of%20a%20professional%20quadcopter%20drone%20flying%20high%20above%20dramatic%20rugged%20coastal%20cliffs%20and%20crashing%20ocean%20waves%20at%20golden%20hour%20sunset%2C%20warm%20amber%20sunlight%20kissing%20the%20rocks%2C%20deep%20moody%20teal%20shadows%2C%20dramatic%20clouds%2C%20sense%20of%20scale%20and%20freedom%2C%20professional%20editorial%20photography%2C%20ultra%20high%20detail%2C%20dramatic%20lighting%2C%20clean%20composition&width=1600&height=900&seq=hero-drone-01&orientation=landscape",
+  "https://readdy.ai/api/search-image?query=Close%20up%20dramatic%20photograph%20of%20a%20professional%20drone%20hovering%20in%20the%20foreground%20with%20a%20glowing%20modern%20city%20skyline%20and%20skyscrapers%20in%20the%20background%20at%20blue%20hour%20dusk%2C%20warm%20city%20lights%20bokeh%2C%20dark%20moody%20teal%20atmosphere%2C%20cinematic%20depth%20of%20field%2C%20professional%20editorial%20photography%2C%20high%20detail%2C%20dramatic%20lighting&width=1600&height=900&seq=hero-drone-02&orientation=landscape",
+  "https://readdy.ai/api/search-image?query=Epic%20aerial%20photograph%20of%20a%20drone%20flying%20above%20a%20majestic%20mountain%20range%20surrounded%20by%20soft%20clouds%20and%20fog%20at%20golden%20hour%2C%20warm%20sunlight%20illuminating%20the%20peaks%2C%20dark%20moody%20teal%20valleys%20below%2C%20cinematic%20atmosphere%2C%20sense%20of%20adventure%2C%20professional%20editorial%20photography%2C%20ultra%20high%20detail%2C%20dramatic%20lighting&width=1600&height=900&seq=hero-drone-03&orientation=landscape",
+  "https://readdy.ai/api/search-image?query=Dramatic%20silhouette%20photograph%20of%20a%20drone%20against%20a%20stunning%20sunset%20sky%20with%20radiant%20sun%20rays%20bursting%20through%20dramatic%20storm%20clouds%2C%20warm%20golden%20and%20amber%20tones%20fading%20to%20deep%20teal%2C%20cinematic%20epic%20atmosphere%2C%20professional%20editorial%20photography%2C%20high%20detail%2C%20dramatic%20lighting&width=1600&height=900&seq=hero-drone-04&orientation=landscape",
+];
+
+export const heroImage = heroImages[0];
 
 export const trustIndicators = [
   { icon: "ri-flight-takeoff-line", title: "Pilotos profesionales" },

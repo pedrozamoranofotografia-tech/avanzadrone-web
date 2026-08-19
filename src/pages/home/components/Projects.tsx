@@ -11,7 +11,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           <img
             src={project.image}
             alt={project.title}
-            title={`${project.title} - AERODATA`}
+            title={`${project.title} - AVANZA DRONE`}
             className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background-900 via-background-900/30 to-transparent"></div>
