@@ -520,18 +520,18 @@ export const sectorDetails: SectorDetail[] = [
   },
   {
     slug: "drones-audiovisual",
-    seoTitle: "Drones para audiovisual en España | AVANZA DRONE",
+    seoTitle: "Drones para publicidad, eventos y turismo | AVANZA DRONE",
     seoDescription:
-      "Drones para el sector audiovisual en España: vídeos cinematográficos, fotografía aérea y producción para cine, publicidad y eventos. Solicita presupuesto.",
+      "Planos aéreos con drones para campañas de publicidad, vídeo corporativo, eventos y promoción turística en España. Material integrado en tu producción.",
     seoKeywords:
       "drones audiovisual, producción aérea cine, vídeo cinematográfico dron, fotografía aérea publicidad, AVANZA DRONE",
-    title: "Drones para audiovisual",
-    tagline: "Producción aérea cinematográfica",
+    title: "Drones para publicidad y comunicación",
+    tagline: "Planos aéreos para tus campañas",
     heroImage:
       "https://readdy.ai/api/search-image?query=Cinematic%20aerial%20drone%20shot%20of%20a%20film%20production%20set%20with%20lighting%20equipment%20and%20crew%20on%20a%20dramatic%20landscape%2C%20warm%20amber%20and%20teal%20color%20grading%2C%20film%20production%20quality%2C%20high%20detail%2C%20professional%20editorial%20photography%2C%20dramatic%20lighting&width=1600&height=900&seq=sector-audiovisual-hero&orientation=landscape",
     intro: [
-      "El dron aporta una perspectiva única que transforma cualquier producción audiovisual. Creamos vídeos y fotografía aérea de calidad cinematográfica para cine, publicidad, eventos, productoras y contenido corporativo.",
-      "Trabajamos el encuadre, la luz y la narrativa de cada plano para ofrecer material listo para publicar, con la agilidad que exige el sector audiovisual, en toda España.",
+      "El plano aéreo aporta a una campaña algo que ninguna cámara a pie de calle puede dar: contexto, escala y una imagen de marca cuidada. Trabajamos con agencias de publicidad, departamentos de marketing, organizadores de eventos y destinos turísticos.",
+      "Nos integramos en producciones que ya están en marcha, aportando la parte aérea con el estilo y el formato que la campaña necesita, y entregando el material listo para montar.",
     ],
     solutions: [
       {
@@ -567,31 +567,31 @@ export const sectorDetails: SectorDetail[] = [
       "Contenido para redes sociales y marketing",
     ],
     process: [
-      { title: "Briefing", description: "Definimos el objetivo, el estilo y la narrativa de la pieza." },
-      { title: "Planificación", description: "Estudiamos localización, encuadres y condiciones de luz." },
-      { title: "Rodaje", description: "Capturamos los planos aéreos y de apoyo." },
-      { title: "Edición", description: "Montamos, corregimos color y entregamos el material final." },
+      { title: "Briefing de campaña", description: "Revisamos el guion o el concepto y definimos qué aportan los planos aéreos." },
+      { title: "Localización", description: "Estudiamos el emplazamiento, los permisos necesarios y la ventana de luz." },
+      { title: "Jornada de vuelo", description: "Coordinamos la captura aérea con el resto del equipo de producción." },
+      { title: "Entrega de material", description: "Entregamos los planos en el formato que pida el montaje final." },
     ],
     faqs: [
       {
-        question: "¿Qué tipo de proyectos audiovisuales realizáis?",
+        question: "¿Podéis incorporaros a una producción ya iniciada?",
         answer:
-          "Vídeos publicitarios, corporativos, de eventos, planos para cine y series, y contenido para redes sociales y marketing.",
+          "Sí. Habitualmente aportamos la parte aérea de campañas y producciones que ya tienen su equipo, adaptándonos al calendario y al estilo definido.",
       },
       {
-        question: "¿Entregáis el material editado y en bruto?",
+        question: "¿Entregáis el material en bruto para que lo monte nuestro equipo?",
         answer:
-          "Sí, entregamos el vídeo editado en alta resolución y, bajo petición, el material en bruto o clips adicionales.",
+          "Sí. Podemos entregar los planos sin editar para que los integre vuestro montador, o encargarnos también de la edición.",
       },
       {
-        question: "¿Incluye corrección de color y música?",
+        question: "¿Quién gestiona los permisos de vuelo en la localización?",
         answer:
-          "Sí, el proceso incluye montaje y corrección de color. La música se selecciona según el estilo de cada proyecto.",
+          "Nos ocupamos nosotros. Estudiamos la normativa aplicable en cada emplazamiento y realizamos las gestiones necesarias antes de la jornada de rodaje.",
       },
       {
-        question: "¿Trabajáis en toda España?",
+        question: "¿Cubrís eventos de un solo día?",
         answer:
-          "Sí, nos desplazamos a cualquier punto del territorio nacional para la producción audiovisual.",
+          "Sí, realizamos cobertura aérea de eventos, inauguraciones y actos corporativos, entregando el material poco después de la jornada.",
       },
     ],
   },

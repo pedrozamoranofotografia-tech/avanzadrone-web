@@ -378,7 +378,7 @@ export const serviceDetails: ServiceDetail[] = [
     seoKeywords:
       "vídeos con drones, fotografía aérea, producción audiovisual dron, vídeo cinematográfico, AVANZA DRONE",
     title: "Vídeos y fotografía aérea",
-    tagline: "Producción aérea cinematográfica",
+    tagline: "Vídeo y fotografía aérea lista para publicar",
     heroImage:
       "https://readdy.ai/api/search-image?query=Cinematic%20aerial%20drone%20shot%20of%20a%20dramatic%20coastline%20at%20dusk%2C%20waves%20and%20cliffs%2C%20moody%20warm%20amber%20and%20teal%20color%20grading%2C%20film%20production%20quality%2C%20high%20detail%2C%20professional%20editorial%20photography%2C%20dramatic%20lighting&width=1600&height=900&seq=svc-audiovisual-hero&orientation=landscape",
     intro: [
@@ -398,31 +398,31 @@ export const serviceDetails: ServiceDetail[] = [
       "Material en bruto bajo petición",
     ],
     process: [
-      { title: "Briefing", description: "Definimos el objetivo, el estilo y la narrativa de la pieza." },
-      { title: "Planificación", description: "Estudiamos localización, encuadres y condiciones de luz." },
-      { title: "Rodaje", description: "Capturamos los planos aéreos y de apoyo." },
-      { title: "Edición", description: "Montamos, corregimos color y entregamos el material final." },
+      { title: "Presupuesto", description: "Nos cuentas qué quieres grabar y te enviamos una propuesta cerrada." },
+      { title: "Fecha de vuelo", description: "Fijamos el día según la localización y las condiciones de luz." },
+      { title: "Grabación", description: "Capturamos vídeo y fotografía aérea en una única sesión." },
+      { title: "Entrega", description: "Recibes el material editado y listo para usar en web y redes." },
     ],
     faqs: [
       {
-        question: "¿Qué tipo de proyectos audiovisuales realizáis?",
+        question: "¿Cuánto cuesta un vídeo con dron?",
         answer:
-          "Vídeos inmobiliarios, promocionales de hoteles y turismo, publicidad, cobertura de eventos, vídeos corporativos y contenido para redes sociales.",
+          "Depende de la localización, la duración de la pieza y el nivel de edición. Enviamos un presupuesto cerrado antes de empezar, sin costes añadidos posteriores.",
       },
       {
-        question: "¿Entregáis el material editado y en bruto?",
+        question: "¿Cuánto tarda la entrega del material?",
         answer:
-          "Sí, entregamos el vídeo editado en alta resolución y, bajo petición, el material en bruto o clips adicionales para redes sociales.",
+          "Las fotografías suelen entregarse en pocos días. El vídeo editado depende de la duración y complejidad de la pieza.",
       },
       {
-        question: "¿Incluye corrección de color y música?",
+        question: "¿En qué formatos recibo el vídeo?",
         answer:
-          "Sí, el proceso incluye montaje y corrección de color. La música se selecciona según el estilo de cada proyecto.",
+          "Entregamos el vídeo en alta resolución para web y, si lo necesitas, versiones verticales y recortes adaptados a redes sociales.",
       },
       {
-        question: "¿Trabajáis en toda España?",
+        question: "¿Puedo usar el material en portales y anuncios?",
         answer:
-          "Sí, nos desplazamos a cualquier punto del territorio nacional para la producción audiovisual.",
+          "Sí, el material se entrega listo para publicar en tu web, portales del sector, redes sociales y campañas de marketing.",
       },
     ],
   },
