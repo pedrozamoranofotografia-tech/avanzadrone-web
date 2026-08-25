@@ -245,9 +245,9 @@ export const serviceDetails: ServiceDetail[] = [
   },
   {
     slug: "seguimiento-obras-drones",
-    seoTitle: "Seguimiento de obras con drones | AVANZA DRONE",
+    seoTitle: "Seguimiento de obras con drones | Monitorización de obra",
     seoDescription:
-      "Seguimiento y monitorización de obras con drones en España. Documenta la evolución de tu proyecto con fotos, vídeo y ortofotos periódicas. Solicita presupuesto.",
+      "Seguimiento de obras con drones en España. Documentamos la evolución de tu obra con fotografías, vídeo aéreo y ortofotos comparables mes a mes. Solicita presupuesto.",
     seoKeywords:
       "seguimiento de obras con drones, monitorización de obras, documentación de obra, ortofoto obra, AVANZA DRONE",
     title: "Seguimiento de obras",
@@ -296,6 +296,21 @@ export const serviceDetails: ServiceDetail[] = [
         question: "¿Trabajáis en obras de toda España?",
         answer:
           "Sí, realizamos seguimientos de obra en cualquier punto del territorio español.",
+      },
+      {
+        question: "¿Qué es el seguimiento de obra con dron?",
+        answer:
+          "Consiste en realizar vuelos periódicos sobre la obra para capturar fotografías, vídeo y ortofotos desde los mismos puntos, generando un registro visual comparable que muestra la evolución del proyecto a lo largo del tiempo.",
+      },
+      {
+        question: "¿Qué diferencia hay entre el seguimiento con dron y la documentación fotográfica tradicional?",
+        answer:
+          "El dron cubre la totalidad de la obra desde el aire en una sola sesión, incluyendo zonas inaccesibles a pie, y permite generar ortofotos georreferenciadas sobre las que medir. La fotografía a pie de obra solo documenta puntos concretos.",
+      },
+      {
+        question: "¿Qué entregables se reciben en cada vuelo?",
+        answer:
+          "Fotografías aéreas de alta resolución, vídeo del estado de la obra, ortofoto georreferenciada y, cuando el proyecto lo requiere, modelo 3D y comparativa con el vuelo anterior.",
       },
     ],
   },
