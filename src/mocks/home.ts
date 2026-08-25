@@ -155,7 +155,7 @@ export const services: Service[] = [
     slug: "videos-con-drones",
     icon: "ri-movie-2-line",
     title: "Audiovisual profesional",
-    tagline: "Producción aérea cinematográfica",
+    tagline: "Vídeo y fotografía aérea lista para publicar",
     description:
       "Producción aérea para inmobiliarias, constructoras, hoteles, turismo, publicidad, empresas, eventos, productoras y redes sociales.",
     highlights: [
