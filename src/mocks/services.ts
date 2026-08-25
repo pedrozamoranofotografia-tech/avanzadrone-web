@@ -278,26 +278,6 @@ export const serviceDetails: ServiceDetail[] = [
     ],
     faqs: [
       {
-        question: "¿Con qué frecuencia se realiza el seguimiento?",
-        answer:
-          "Habitualmente de forma mensual, aunque la frecuencia se adapta a las necesidades del proyecto: semanal, quincenal o en hitos concretos de la obra.",
-      },
-      {
-        question: "¿Se pueden comparar vuelos de distintos meses?",
-        answer:
-          "Sí. Al mantener una planificación de vuelo consistente, generamos ortofotos y modelos comparables que muestran la evolución entre periodos.",
-      },
-      {
-        question: "¿Qué aporta el seguimiento con dron a la dirección de obra?",
-        answer:
-          "Un registro visual objetivo y georreferenciado del avance, útil para la toma de decisiones, la justificación de certificaciones y la comunicación con los inversores.",
-      },
-      {
-        question: "¿Trabajáis en obras de toda España?",
-        answer:
-          "Sí, realizamos seguimientos de obra en cualquier punto del territorio español.",
-      },
-      {
         question: "¿Qué es el seguimiento de obra con dron?",
         answer:
           "Consiste en realizar vuelos periódicos sobre la obra para capturar fotografías, vídeo y ortofotos desde los mismos puntos, generando un registro visual comparable que muestra la evolución del proyecto a lo largo del tiempo.",
@@ -308,9 +288,29 @@ export const serviceDetails: ServiceDetail[] = [
           "El dron cubre la totalidad de la obra desde el aire en una sola sesión, incluyendo zonas inaccesibles a pie, y permite generar ortofotos georreferenciadas sobre las que medir. La fotografía a pie de obra solo documenta puntos concretos.",
       },
       {
+        question: "¿Con qué frecuencia se realiza el seguimiento?",
+        answer:
+          "Habitualmente de forma mensual, aunque la frecuencia se adapta a las necesidades del proyecto: semanal, quincenal o en hitos concretos de la obra.",
+      },
+      {
+        question: "¿Se pueden comparar vuelos de distintos meses?",
+        answer:
+          "Sí. Al mantener una planificación de vuelo consistente, generamos ortofotos y modelos comparables que muestran la evolución entre periodos.",
+      },
+      {
         question: "¿Qué entregables se reciben en cada vuelo?",
         answer:
           "Fotografías aéreas de alta resolución, vídeo del estado de la obra, ortofoto georreferenciada y, cuando el proyecto lo requiere, modelo 3D y comparativa con el vuelo anterior.",
+      },
+      {
+        question: "¿Qué aporta el seguimiento con dron a la dirección de obra?",
+        answer:
+          "Un registro visual objetivo y georreferenciado del avance, útil para la toma de decisiones, la justificación de certificaciones y la comunicación con los inversores.",
+      },
+      {
+        question: "¿Trabajáis en obras de toda España?",
+        answer:
+          "Sí, realizamos seguimientos de obra en cualquier punto del territorio español.",
       },
     ],
   },
