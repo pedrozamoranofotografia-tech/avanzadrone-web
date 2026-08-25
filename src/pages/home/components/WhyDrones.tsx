@@ -12,7 +12,7 @@ export default function WhyDrones() {
           description="El dron es la herramienta. El producto es la información y el resultado que recibe tu empresa."
         />
 
-        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {whyDrones.map((item, i) => (
             <Reveal key={item.title} delay={i * 80}>
               <div className="group flex flex-col h-full p-7 rounded-lg border border-background-800/60 bg-background-950/40 hover:border-primary-700/50 transition-all cursor-pointer">

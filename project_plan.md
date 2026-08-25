@@ -11,7 +11,7 @@ Web corporativa premium para una empresa española especializada en servicios t�
 
 **Ámbito de servicio:** toda la geografía española (cobertura nacional, sede en Madrid).
 
-**Contacto real:** Calle Cidro, 20, 3º, 28044 Madrid · info@avanzadrone.com · 636 98 06 09.
+**Contacto real:** Calle Cidro, 20, 3º, 28044 Madrid · info@avanzadrone.es · 636 98 06 09.
 
 ## 2. Estructura de páginas
 - `/` — Inicio (hero + servicios + sectores + proceso + antes/después + proyectos + por qué drones + formulario + mapa)
@@ -22,7 +22,6 @@ Web corporativa premium para una empresa española especializada en servicios t�
 - `/seguimiento-obras-drones` — Servicio: seguimiento de obras ✔
 - `/inspeccion-placas-solares` — Servicio: energía solar ✔
 - `/videos-con-drones` — Servicio: audiovisual profesional ✔
-- `/drones-inmobiliarias` — Servicio: real estate ✔
 - `/drones-construccion` — Sector: construcción ✔
 - `/drones-industria` — Sector: industria ✔
 - `/drones-energia` — Sector: energía ✔
@@ -37,7 +36,7 @@ Web corporativa premium para una empresa española especializada en servicios t�
 ## 3. Funcionalidades principales
 - [x] Hero a pantalla completa con imagen cinematográfica de fondo
 - [x] Indicadores de confianza (pilotos, operaciones seguras, tecnología, cobertura)
-- [x] 8 tarjetas de servicio interactivas con enlace a página de detalle
+- [x] 7 tarjetas de servicio interactivas con enlace a página de detalle
 - [x] Sección de sectores
 - [x] Proceso de trabajo en 5 pasos
 - [x] Comparadores interactivos antes/después
@@ -63,13 +62,13 @@ No requiere base de datos en esta fase (sitio de marketing). El formulario de pr
 Hero, indicadores de confianza, servicios, sectores, proceso, antes/después, proyectos, por qué drones, formulario, mapa, footer y WhatsApp.
 
 ### Fase 2: Páginas de servicio (SEO) — COMPLETADA
-8 páginas de servicio con H1 optimizado, descripción, problemas que resuelve, entregables, proceso, FAQ con Schema.org y CTA. Títulos, meta description y keywords SEO por servicio.
+7 páginas de servicio con H1 optimizado, descripción, problemas que resuelve, entregables, proceso, FAQ con Schema.org y CTA. Títulos, meta description y keywords SEO por servicio.
 
 ### Fase 3: Páginas de sector — COMPLETADA
 8 páginas de sector (construcción, industria, energía, ingeniería, inmobiliario, agrícola, audiovisual, administraciones) con H1 optimizado, soluciones enlazadas a los servicios, beneficios, casos de uso, proceso, FAQ con Schema.org y CTA. Títulos, meta description y keywords SEO por sector.
 
 ### Fase 4: SEO técnico y optimización — COMPLETADA
-Sitemap XML, robots.txt, Open Graph tags por página, Twitter Cards, canonical URLs, JSON-LD Schema.org, meta keywords y descripciones en todas las páginas (home, 8 servicios, 8 sectores, 3 legales).
+Sitemap XML, robots.txt, Open Graph tags por página, Twitter Cards, canonical URLs, JSON-LD Schema.org, meta keywords y descripciones en todas las páginas (home, 7 servicios, 8 sectores, 3 legales).
 
 ### Fase 5: Publicación y dominio
 - Objetivo: revisión final, publicación y configuración de dominio.

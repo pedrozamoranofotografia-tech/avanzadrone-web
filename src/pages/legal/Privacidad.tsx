@@ -48,7 +48,7 @@ export default function Privacidad() {
                   1. Responsable del tratamiento
                 </h2>
                 <p>
-                  El responsable del tratamiento de los datos personales recogidos a través del sitio web es AVANZA DRONE, con domicilio social en Calle Cidro, 20, 3º, 28044 Madrid, España, y correo electrónico <a href="mailto:info@avanzadrone.com" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.com</a>.
+                  El responsable del tratamiento de los datos personales recogidos a través del sitio web es AVANZA DRONE, con domicilio social en Calle Cidro, 20, 3º, 28044 Madrid, España, y correo electrónico <a href="mailto:info@avanzadrone.es" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.es</a>.
                 </p>
               </section>
 
@@ -127,7 +127,7 @@ export default function Privacidad() {
                   <li><strong className="text-foreground-200">Derecho a no ser objeto de decisiones automatizadas:</strong> incluida la elaboración de perfiles.</li>
                 </ul>
                 <p className="mt-3">
-                  Para ejercer estos derechos, puede enviar una solicitud por correo electrónico a <a href="mailto:info@avanzadrone.com" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.com</a> o por correo postal a la dirección indicada en el apartado 1, acompañando copia de su DNI o documento identificativo equivalente.
+                  Para ejercer estos derechos, puede enviar una solicitud por correo electrónico a <a href="mailto:info@avanzadrone.es" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.es</a> o por correo postal a la dirección indicada en el apartado 1, acompañando copia de su DNI o documento identificativo equivalente.
                 </p>
                 <p className="mt-3">
                   Asimismo, tiene derecho a presentar una reclamación ante la <a href="https://www.aepd.es" target="_blank" rel="noopener noreferrer nofollow" className="text-primary-400 hover:text-primary-300 transition-colors">Agencia Española de Protección de Datos (AEPD)</a> si considera que el tratamiento de sus datos personales vulnera la normativa vigente.

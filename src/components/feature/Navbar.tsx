@@ -44,7 +44,7 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm text-foreground-300 hover:text-foreground-50 transition-colors whitespace-nowrap"
+              className="text-sm font-medium text-foreground-200 hover:text-foreground-50 [text-shadow:0_1px_3px_rgba(0,0,0,0.35)] transition-colors whitespace-nowrap"
             >
               {link.label}
             </a>
@@ -69,7 +69,7 @@ export default function Navbar() {
         <button
           type="button"
           onClick={() => setOpen((v) => !v)}
-          className="md:hidden w-10 h-10 flex items-center justify-center rounded-md text-foreground-100 border border-background-700"
+          className="md:hidden w-10 h-10 flex items-center justify-center rounded-md text-foreground-100 border border-background-700 bg-background-950/30 backdrop-blur-sm"
           aria-label="Abrir menú"
         >
           <i className={`${open ? "ri-close-line" : "ri-menu-line"} text-lg`}></i>

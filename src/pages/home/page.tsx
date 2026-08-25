@@ -20,7 +20,7 @@ const jsonLdHome = {
     "Servicios técnicos y audiovisuales con drones en España: inspección, termografía, topografía, fotogrametría y producción aérea.",
   url: "https://avanzadrone.es/",
   telephone: "+34636980609",
-  email: "info@avanzadrone.com",
+  email: "info@avanzadrone.es",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Calle Cidro, 20, 3º",

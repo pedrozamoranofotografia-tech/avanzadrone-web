@@ -54,7 +54,7 @@ export default function AvisoLegal() {
                 <ul className="mt-3 space-y-1.5 list-disc list-inside">
                   <li><strong className="text-foreground-200">Denominación social:</strong> AVANZA DRONE</li>
                   <li><strong className="text-foreground-200">Dirección:</strong> Calle Cidro, 20, 3º, 28044 Madrid, España</li>
-                  <li><strong className="text-foreground-200">Correo electrónico:</strong> info@avanzadrone.com</li>
+                  <li><strong className="text-foreground-200">Correo electrónico:</strong> info@avanzadrone.es</li>
                   <li><strong className="text-foreground-200">Actividad:</strong> Servicios técnicos y audiovisuales con drones: inspección, termografía, topografía, fotogrametría, seguimiento de obras y producción audiovisual.</li>
                 </ul>
               </section>
@@ -127,7 +127,7 @@ export default function AvisoLegal() {
                   7. Contacto
                 </h2>
                 <p>
-                  Para cualquier consulta relativa a este Aviso Legal, puede contactar con nosotros a través del correo electrónico <a href="mailto:info@avanzadrone.com" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.com</a> o en la dirección postal indicada en el apartado 1.
+                  Para cualquier consulta relativa a este Aviso Legal, puede contactar con nosotros a través del correo electrónico <a href="mailto:info@avanzadrone.es" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.es</a> o en la dirección postal indicada en el apartado 1.
                 </p>
               </section>
             </div>

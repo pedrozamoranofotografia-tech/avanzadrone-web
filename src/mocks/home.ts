@@ -170,26 +170,6 @@ export const services: Service[] = [
     image:
       "https://readdy.ai/api/search-image?query=Cinematic%20aerial%20drone%20shot%20of%20a%20dramatic%20coastline%20at%20dusk%2C%20waves%20and%20cliffs%2C%20moody%20warm%20amber%20and%20teal%20color%20grading%2C%20film%20production%20quality%2C%20high%20detail%2C%20professional%20editorial%20photography%2C%20dramatic%20lighting&width=800&height=600&seq=svc-audiovisual-01&orientation=landscape",
   },
-  {
-    id: "real-estate",
-    slug: "drones-inmobiliarias",
-    icon: "ri-home-6-line",
-    title: "Real Estate",
-    tagline: "Fotografía y vídeo aéreo inmobiliario",
-    description:
-      "Fotografía y vídeo aéreo profesional para viviendas premium, promociones, terrenos, hoteles, complejos turísticos y naves industriales.",
-    highlights: [
-      "Viviendas premium",
-      "Promociones inmobiliarias",
-      "Terrenos",
-      "Hoteles",
-      "Complejos turísticos",
-      "Naves industriales",
-    ],
-    cta: "Solicitar sesión",
-    image:
-      "https://readdy.ai/api/search-image?query=Aerial%20drone%20view%20of%20a%20luxury%20modern%20villa%20with%20pool%20at%20twilight%2C%20warm%20interior%20lights%20glowing%2C%20dark%20moody%20atmosphere%2C%20teal%20shadows%2C%20high%20detail%2C%20professional%20real%20estate%20photography%2C%20dramatic%20lighting&width=800&height=600&seq=svc-realestate-01&orientation=landscape",
-  },
 ];
 
 export const sectors = [

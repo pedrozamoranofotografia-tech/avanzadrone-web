@@ -112,8 +112,8 @@ export default function BudgetForm() {
               </span>
               <div>
                 <p className="text-sm font-medium text-foreground-200">Email</p>
-                <a href="mailto:info@avanzadrone.com" className="text-xs text-foreground-500 hover:text-foreground-200 transition-colors mt-0.5 block">
-                  info@avanzadrone.com
+                <a href="mailto:info@avanzadrone.es" className="text-xs text-foreground-500 hover:text-foreground-200 transition-colors mt-0.5 block">
+                  info@avanzadrone.es
                 </a>
               </div>
             </div>
@@ -259,8 +259,9 @@ export default function BudgetForm() {
                 className="w-full px-4 py-3 rounded-md bg-background-950/60 border border-background-700 text-sm text-foreground-100 placeholder:text-foreground-600 focus:border-accent-500 focus:outline-none resize-none"
               ></textarea>
               <p className="mt-1 text-xs text-foreground-500">
-                Máximo 500 caracteres. Podrás adjuntar fotografías, planos o
-                documentación en el siguiente paso.
+                Máximo 500 caracteres. Si necesitas enviarnos planos,
+                fotografías o documentación adicional, podremos solicitártelos
+                después de recibir tu consulta.
               </p>
             </div>
 

@@ -41,10 +41,6 @@ const routes: RouteObject[] = [
     element: <ServiceDetail slug="videos-con-drones" />,
   },
   {
-    path: "/drones-inmobiliarias",
-    element: <ServiceDetail slug="drones-inmobiliarias" />,
-  },
-  {
     path: "/drones-construccion",
     element: <SectorDetail slug="drones-construccion" />,
   },

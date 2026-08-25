@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/drones-inmobiliarias",
+      "destination": "/drones-inmobiliario",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!sitemap\\.xml|robots\\.txt|assets/).*)",

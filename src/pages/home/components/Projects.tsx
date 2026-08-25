@@ -88,7 +88,7 @@ export default function Projects() {
           description="Cada proyecto es un problema resuelto con datos, precisión y resultados medibles."
         />
 
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, i) => (
             <ProjectCard key={project.title} project={project} index={i} />
           ))}

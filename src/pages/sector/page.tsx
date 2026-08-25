@@ -23,7 +23,7 @@ export default function SectorDetail({ slug: slugProp }: { slug?: string }) {
           "@type": "Organization",
           name: "AVANZA DRONE",
           telephone: "+34636980609",
-          email: "info@avanzadrone.com",
+          email: "info@avanzadrone.es",
           address: {
             "@type": "PostalAddress",
             streetAddress: "Calle Cidro, 20, 3º",

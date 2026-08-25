@@ -33,8 +33,8 @@ export default function Footer() {
               </p>
               <p className="flex items-center gap-2">
                 <i className="ri-mail-line text-accent-400"></i>
-                <a href="mailto:info@avanzadrone.com" className="hover:text-foreground-100 transition-colors">
-                  info@avanzadrone.com
+                <a href="mailto:info@avanzadrone.es" className="hover:text-foreground-100 transition-colors">
+                  info@avanzadrone.es
                 </a>
               </p>
               <p className="flex items-center gap-2">

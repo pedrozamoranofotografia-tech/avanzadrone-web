@@ -221,7 +221,7 @@ export default function Cookies() {
                   6. Contacto
                 </h2>
                 <p>
-                  Si tiene cualquier duda sobre nuestra Política de Cookies, puede contactarnos en <a href="mailto:info@avanzadrone.com" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.com</a>.
+                  Si tiene cualquier duda sobre nuestra Política de Cookies, puede contactarnos en <a href="mailto:info@avanzadrone.es" className="text-primary-400 hover:text-primary-300 transition-colors">info@avanzadrone.es</a>.
                 </p>
               </section>
             </div>

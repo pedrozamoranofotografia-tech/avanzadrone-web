@@ -64,10 +64,10 @@ export default function Services() {
         <SectionHeading
           eyebrow="Servicios"
           title="Soluciones aéreas para cada proyecto"
-          description="Del vuelo a la información. Ocho líneas de servicio técnico y audiovisual diseñadas para entregar datos, precisión y resultados."
+          description="Del vuelo a la información. Siete líneas de servicio técnico y audiovisual diseñadas para entregar datos, precisión y resultados."
         />
 
-        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {services.map((service, i) => (
             <ServiceCard key={service.id} service={service} index={i} />
           ))}

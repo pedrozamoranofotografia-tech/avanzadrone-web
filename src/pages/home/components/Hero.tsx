@@ -79,12 +79,12 @@ export default function Hero() {
             {trustIndicators.map((item) => (
               <div
                 key={item.title}
-                className="flex flex-col items-center gap-3 px-4 py-6 bg-background-950/60"
+                className="flex flex-col items-center justify-center gap-3 px-4 py-6 bg-background-950/60 min-h-[84px]"
               >
                 <span className="w-10 h-10 flex items-center justify-center rounded-md bg-accent-500/10 text-accent-400">
                   <i className={`${item.icon} text-xl`}></i>
                 </span>
-                <span className="text-xs md:text-sm font-medium text-foreground-200 text-center uppercase tracking-wide">
+                <span className="text-xs md:text-sm font-medium text-foreground-200 text-center uppercase tracking-wide leading-snug">
                   {item.title}
                 </span>
               </div>

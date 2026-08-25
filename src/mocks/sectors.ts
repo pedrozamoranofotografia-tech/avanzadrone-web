@@ -360,12 +360,12 @@ export const sectorDetails: SectorDetail[] = [
   },
   {
     slug: "drones-inmobiliario",
-    seoTitle: "Drones para inmobiliarias en España | AVANZA DRONE",
+    seoTitle: "Drones para inmobiliarias | Fotografía y vídeo aéreo",
     seoDescription:
-      "Drones para el sector inmobiliario en España: fotografía y vídeo aéreo de viviendas, promociones y terrenos. Vende más rápido con imágenes impactantes.",
+      "Drones para agencias inmobiliarias en España: fotografía y vídeo aéreo de viviendas, promociones y terrenos. Tomas aéreas que destacan cada propiedad.",
     seoKeywords:
       "drones inmobiliarias, fotografía aérea inmobiliaria, vídeo inmobiliario dron, real estate drones, AVANZA DRONE",
-    title: "Drones para el sector inmobiliario",
+    title: "Fotografía y vídeo con drones para inmobiliarias",
     tagline: "Imágenes que venden propiedades",
     heroImage:
       "https://readdy.ai/api/search-image?query=Aerial%20drone%20view%20of%20a%20modern%20residential%20development%20with%20new%20homes%2C%20landscaped%20gardens%20and%20green%20areas%2C%20warm%20golden%20hour%20light%2C%20dark%20moody%20teal%20shadows%2C%20high%20detail%2C%20professional%20real%20estate%20photography%2C%20dramatic%20lighting&width=1600&height=900&seq=sector-inmobiliario-hero&orientation=landscape",
@@ -374,12 +374,6 @@ export const sectorDetails: SectorDetail[] = [
       "Trabajamos con inmobiliarias, promotoras y propietarios para crear contenido de alto impacto que acelera la venta o el alquiler de viviendas, promociones, terrenos y hoteles en toda España.",
     ],
     solutions: [
-      {
-        title: "Drones para inmobiliarias",
-        description:
-          "Fotografía y vídeo aéreo de viviendas, promociones, terrenos y hoteles.",
-        slug: "drones-inmobiliarias",
-      },
       {
         title: "Vídeos y fotografía aérea",
         description:
@@ -550,7 +544,7 @@ export const sectorDetails: SectorDetail[] = [
         title: "Drones para inmobiliarias",
         description:
           "Contenido aéreo de alto impacto para promociones y proyectos inmobiliarios.",
-        slug: "drones-inmobiliarias",
+        slug: "drones-inmobiliario",
       },
       {
         title: "Fotogrametría y modelos 3D",
