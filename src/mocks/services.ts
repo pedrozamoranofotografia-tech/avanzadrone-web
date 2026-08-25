@@ -374,15 +374,15 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "videos-con-drones",
     seoTitle: "Vídeos y fotos aéreas con drones | AVANZA DRONE",
     seoDescription:
-      "Producción audiovisual aérea con drones en España: vídeos cinematográficos y fotografía aérea para inmobiliarias, turismo, publicidad y eventos. Solicita presupuesto.",
+      "Vídeo y fotografía aérea con drones en España para inmobiliarias, hoteles, turismo, empresas y eventos. Material editado y listo para publicar.",
     seoKeywords:
-      "vídeos con drones, fotografía aérea, producción audiovisual dron, vídeo cinematográfico, AVANZA DRONE",
+      "vídeos con drones, fotografía aérea, vídeo aéreo empresas, grabación con dron, AVANZA DRONE",
     title: "Vídeos y fotografía aérea",
     tagline: "Vídeo y fotografía aérea lista para publicar",
     heroImage:
       "https://readdy.ai/api/search-image?query=Cinematic%20aerial%20drone%20shot%20of%20a%20dramatic%20coastline%20at%20dusk%2C%20waves%20and%20cliffs%2C%20moody%20warm%20amber%20and%20teal%20color%20grading%2C%20film%20production%20quality%2C%20high%20detail%2C%20professional%20editorial%20photography%2C%20dramatic%20lighting&width=1600&height=900&seq=svc-audiovisual-hero&orientation=landscape",
     intro: [
-      "Creamos vídeos y fotografía aérea de calidad cinematográfica para inmobiliarias, hoteles, turismo, publicidad, eventos, productoras y empresas. El dron aporta una perspectiva única que transforma cualquier proyecto en una pieza visual impactante.",
+      "Grabamos vídeo y fotografía aérea para inmobiliarias, hoteles, turismo, empresas y eventos. El plano aéreo muestra el entorno y la escala de lo que quieres enseñar, algo que ninguna cámara a pie de calle consigue.",
       "Trabajamos el encuadre, la luz y la narrativa de cada plano para ofrecer material listo para publicar en web, redes sociales o campañas de marketing.",
     ],
     problems: [

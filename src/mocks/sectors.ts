@@ -377,7 +377,7 @@ export const sectorDetails: SectorDetail[] = [
       {
         title: "Vídeos y fotografía aérea",
         description:
-          "Producción audiovisual cinematográfica para presentar propiedades y promociones.",
+          "Vídeo y fotografía aérea para presentar propiedades y promociones.",
         slug: "videos-con-drones",
       },
       {
@@ -524,7 +524,7 @@ export const sectorDetails: SectorDetail[] = [
     seoDescription:
       "Planos aéreos con drones para campañas de publicidad, vídeo corporativo, eventos y promoción turística en España. Material integrado en tu producción.",
     seoKeywords:
-      "drones audiovisual, producción aérea cine, vídeo cinematográfico dron, fotografía aérea publicidad, AVANZA DRONE",
+      "drones publicidad, vídeo corporativo dron, cobertura aérea eventos, promoción turística dron, AVANZA DRONE",
     title: "Drones para publicidad y comunicación",
     tagline: "Planos aéreos para tus campañas",
     heroImage:
@@ -537,7 +537,7 @@ export const sectorDetails: SectorDetail[] = [
       {
         title: "Vídeos y fotografía aérea",
         description:
-          "Producción aérea cinematográfica para cine, publicidad y eventos.",
+          "Vídeo y fotografía aérea editados y listos para publicar.",
         slug: "videos-con-drones",
       },
       {
@@ -549,12 +549,12 @@ export const sectorDetails: SectorDetail[] = [
       {
         title: "Fotogrametría y modelos 3D",
         description:
-          "Reconstrucción de escenarios y localizaciones para VFX y previsualización.",
+          "Modelos 3D de localizaciones y espacios para previsualización.",
         slug: "fotogrametria-drones",
       },
     ],
     benefits: [
-      "Planos aéreos de calidad cinematográfica",
+      "Planos aéreos de alta calidad",
       "Perspectivas únicas e impactantes",
       "Material listo para publicar",
       "Corrección de color y montaje",
@@ -563,7 +563,7 @@ export const sectorDetails: SectorDetail[] = [
     useCases: [
       "Vídeos publicitarios y corporativos",
       "Cobertura aérea de eventos",
-      "Planos para cine y series",
+      "Promoción de destinos turísticos",
       "Contenido para redes sociales y marketing",
     ],
     process: [
