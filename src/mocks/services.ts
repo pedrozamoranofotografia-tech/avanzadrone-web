@@ -21,9 +21,9 @@ export interface ServiceDetail {
 export const serviceDetails: ServiceDetail[] = [
   {
     slug: "inspecciones-drones",
-    seoTitle: "Inspecciones técnicas con drones en España | AVANZA DRONE",
+    seoTitle: "Inspección técnica con drones | Cubiertas y estructuras",
     seoDescription:
-      "Inspecciones técnicas con drones en España: cubiertas, fachadas, estructuras e instalaciones. Imágenes de alta resolución, menos riesgo y sin interrumpir la actividad. Solicita presupuesto.",
+      "Inspección técnica con drones de cubiertas, fachadas, estructuras e instalaciones. Imágenes de alta resolución sin trabajos en altura. Solicita presupuesto.",
     seoKeywords:
       "inspecciones con drones, inspección técnica dron, cubiertas drones, fachadas drones, AVANZA DRONE",
     title: "Inspecciones técnicas con drones",
@@ -53,6 +53,21 @@ export const serviceDetails: ServiceDetail[] = [
       { title: "Entrega", description: "Entregamos imágenes y un informe documentado de resultados." },
     ],
     faqs: [
+      {
+        question: "¿Qué es una inspección técnica con dron?",
+        answer:
+          "Es la evaluación del estado de una cubierta, fachada, estructura o instalación mediante vuelo con dron, capturando imágenes y vídeo de alta resolución sin necesidad de andamios, grúas ni acceso físico a la zona.",
+      },
+      {
+        question: "¿Qué ventajas tiene frente a una inspección tradicional?",
+        answer:
+          "Elimina la exposición de personas a trabajos en altura, reduce el tiempo de inspección de días a horas, no requiere medios auxiliares y permite documentar la totalidad del elemento con imágenes geolocalizadas.",
+      },
+      {
+        question: "¿Se puede inspeccionar sin interrumpir la actividad del edificio o la instalación?",
+        answer:
+          "Sí. El vuelo se realiza sin contacto y desde el exterior, por lo que la actividad puede continuar con normalidad durante la inspección.",
+      },
       {
         question: "¿Qué tipo de edificios o estructuras se pueden inspeccionar con dron?",
         answer:
