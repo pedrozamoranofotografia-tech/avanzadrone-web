@@ -6,6 +6,10 @@
       "permanent": true
     }
   ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  "rewrites": [
+    {
+      "source": "/((?!sitemap\\.xml|robots\\.txt|assets/).*)",
+      "destination": "/index.html"
+    }
+  ]
 }
