@@ -6,6 +6,8 @@ import SectorDetail from "../pages/sector/page";
 import AvisoLegal from "../pages/legal/AvisoLegal";
 import Privacidad from "../pages/legal/Privacidad";
 import Cookies from "../pages/legal/Cookies";
+import Blog from "../pages/blog/page";
+import BlogPost from "../pages/blog/post/page";
 
 const routes: RouteObject[] = [
   {
@@ -83,6 +85,14 @@ const routes: RouteObject[] = [
   {
     path: "/cookies",
     element: <Cookies />,
+  },
+  {
+    path: "/blog",
+    element: <Blog />,
+  },
+  {
+    path: "/blog/:slug",
+    element: <BlogPost />,
   },
   {
     path: "*",

@@ -85,6 +85,11 @@ export default function Footer() {
                 </a>
               </li>
               <li>
+                <Link to="/blog" className="text-sm text-foreground-400 hover:text-foreground-100 transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <a href="#presupuesto" className="text-sm text-foreground-400 hover:text-foreground-100 transition-colors">
                   Contacto
                 </a>

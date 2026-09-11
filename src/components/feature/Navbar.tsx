@@ -49,6 +49,12 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <Link
+            to="/blog"
+            className="text-sm font-medium text-foreground-200 hover:text-foreground-50 [text-shadow:0_1px_3px_rgba(0,0,0,0.35)] transition-colors whitespace-nowrap"
+          >
+            Blog
+          </Link>
         </div>
 
         <div className="hidden md:flex items-center gap-3">
@@ -88,6 +94,13 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <Link
+            to="/blog"
+            onClick={() => setOpen(false)}
+            className="text-base text-foreground-200 hover:text-foreground-50 transition-colors"
+          >
+            Blog
+          </Link>
           <a
             href="#presupuesto"
             onClick={() => setOpen(false)}
