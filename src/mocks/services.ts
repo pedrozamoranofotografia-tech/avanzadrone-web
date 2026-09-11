@@ -441,4 +441,70 @@ export const serviceDetails: ServiceDetail[] = [
       },
     ],
   },
+  {
+    slug: "analisis-multiespectral-drones",
+    seoTitle: "Análisis multiespectral con drones | NDVI y mapas de vigor",
+    seoDescription:
+      "Vuelos multiespectrales con drones en España. Mapas NDVI y NDRE georreferenciados con precisión RTK para agricultura, medio ambiente y gestión del territorio.",
+    seoKeywords:
+      "análisis multiespectral drones, NDVI dron, mapas de vigor, índices de vegetación, agricultura de precisión, AVANZA DRONE",
+    title: "Análisis multiespectral",
+    tagline: "Mapas de vigor e índices de vegetación",
+    heroImage:
+      "https://readdy.ai/api/search-image?query=Aerial%20multispectral%20map%20of%20agricultural%20fields%20with%20NDVI%20vegetation%20index%20color%20overlay%20in%20red%20yellow%20and%20green%20gradients%2C%20crop%20rows%20visible%2C%20dark%20moody%20teal%20background%2C%20high%20detail%2C%20professional%20editorial%20style%2C%20dramatic%20lighting&width=1600&height=900&seq=svc-multiespectral-hero&orientation=landscape",
+    intro: [
+      "Una cámara convencional solo capta lo que el ojo humano ve. Un sensor multiespectral registra además bandas que quedan fuera del espectro visible, y esas bandas revelan diferencias de vigor en la vegetación semanas antes de que sean perceptibles a simple vista.",
+      "Volamos con un sensor que captura simultáneamente cuatro bandas (verde, rojo, red edge e infrarrojo cercano) junto a una cámara RGB de 20 MP, con posicionamiento RTK centimétrico y sensor de irradiancia solar. El resultado son mapas de índices georreferenciados y comparables entre vuelos de fechas distintas.",
+    ],
+    problems: [
+      "Detectar zonas de bajo vigor antes de que sean visibles",
+      "Delimitar con precisión las áreas afectadas dentro de una parcela",
+      "Comparar la evolución de un cultivo entre distintas fechas",
+      "Disponer de datos georreferenciados para el técnico o agrónomo",
+    ],
+    deliverables: [
+      "Mapas de índices de vegetación (NDVI, NDRE y otros)",
+      "Ortomosaico RGB de alta resolución",
+      "Archivos georreferenciados compatibles con GIS",
+      "Comparativa entre vuelos de distintas fechas",
+    ],
+    process: [
+      { title: "Definición", description: "Determinamos la superficie, los índices necesarios y el calendario de vuelos." },
+      { title: "Planificación", description: "Programamos el vuelo en las condiciones de luz adecuadas para cada campaña." },
+      { title: "Captura", description: "Volamos con sensor multiespectral, RTK y registro de irradiancia solar." },
+      { title: "Procesado", description: "Generamos los mapas de índices y los entregamos georreferenciados." },
+    ],
+    faqs: [
+      {
+        question: "¿Qué es un mapa NDVI y para qué sirve?",
+        answer:
+          "Es un mapa que representa el vigor de la vegetación combinando la reflectancia en rojo e infrarrojo cercano. Permite localizar dentro de una parcela las zonas con menor desarrollo, delimitarlas con precisión y dirigir hacia ellas la inspección de campo.",
+      },
+      {
+        question: "¿El análisis indica la causa del problema?",
+        answer:
+          "No. Los índices muestran dónde hay diferencias de vigor, no por qué. Determinar la causa (hídrica, nutricional, sanitaria o de suelo) corresponde al técnico o agrónomo, que utiliza estos mapas como punto de partida para su diagnóstico.",
+      },
+      {
+        question: "¿Se pueden comparar vuelos de distintas fechas?",
+        answer:
+          "Sí, y es una de las principales aplicaciones. El sensor de irradiancia registra la luz solar de cada imagen y compensa las diferencias de iluminación entre días, lo que hace que los índices de un vuelo sean comparables con los del siguiente.",
+      },
+      {
+        question: "¿Qué precisión de posicionamiento tienen los mapas?",
+        answer:
+          "Trabajamos con RTK, que proporciona posicionamiento centimétrico y permite entregar los productos georreferenciados sin necesidad de puntos de apoyo en la mayoría de los casos.",
+      },
+      {
+        question: "¿Solo sirve para agricultura?",
+        answer:
+          "No. Además de cultivos, se utiliza en seguimiento de restauración vegetal, control del estado de zonas verdes, estudios medioambientales y evaluación de masas forestales.",
+      },
+      {
+        question: "¿En qué formato se entregan los resultados?",
+        answer:
+          "En formatos estándar georreferenciados compatibles con software GIS, junto al ortomosaico RGB y los mapas de índices en imagen para consulta directa.",
+      },
+    ],
+  },
 ];

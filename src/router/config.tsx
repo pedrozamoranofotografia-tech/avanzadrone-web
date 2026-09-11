@@ -43,6 +43,10 @@ const routes: RouteObject[] = [
     element: <ServiceDetail slug="videos-con-drones" />,
   },
   {
+    path: "/analisis-multiespectral-drones",
+    element: <ServiceDetail slug="analisis-multiespectral-drones" />,
+  },
+  {
     path: "/drones-construccion",
     element: <SectorDetail slug="drones-construccion" />,
   },

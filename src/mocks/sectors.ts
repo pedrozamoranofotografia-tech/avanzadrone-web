@@ -452,6 +452,12 @@ export const sectorDetails: SectorDetail[] = [
     ],
     solutions: [
       {
+        title: "Análisis multiespectral",
+        description:
+          "Mapas NDVI e índices de vegetación para localizar zonas de bajo vigor en la parcela.",
+        slug: "analisis-multiespectral-drones",
+      },
+      {
         title: "Topografía y cartografía",
         description:
           "Levantamiento de fincas con ortofotos y modelos digitales del terreno.",

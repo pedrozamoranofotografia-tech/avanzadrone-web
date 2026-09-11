@@ -170,6 +170,24 @@ export const services: Service[] = [
     image:
       "https://readdy.ai/api/search-image?query=Cinematic%20aerial%20drone%20shot%20of%20a%20dramatic%20coastline%20at%20dusk%2C%20waves%20and%20cliffs%2C%20moody%20warm%20amber%20and%20teal%20color%20grading%2C%20film%20production%20quality%2C%20high%20detail%2C%20professional%20editorial%20photography%2C%20dramatic%20lighting&width=800&height=600&seq=svc-audiovisual-01&orientation=landscape",
   },
+  {
+    id: "multiespectral",
+    slug: "analisis-multiespectral-drones",
+    icon: "ri-leaf-line",
+    title: "Análisis multiespectral",
+    tagline: "Mapas de vigor e índices de vegetación",
+    description:
+      "Vuelos con sensor multiespectral para generar mapas NDVI y de índices de vegetación georreferenciados con precisión RTK.",
+    highlights: [
+      "Mapas NDVI y NDRE",
+      "Cuatro bandas espectrales",
+      "Precisión RTK centimétrica",
+      "Comparativa entre campañas",
+    ],
+    cta: "Solicitar vuelo",
+    image:
+      "https://readdy.ai/api/search-image?query=Aerial%20multispectral%20vegetation%20index%20map%20of%20farmland%20with%20color%20gradient%20overlay%2C%20crop%20rows%2C%20teal%20and%20amber%20color%20grading%2C%20dark%20background%2C%20high%20detail%2C%20professional%20editorial%20style&width=800&height=600&seq=svc-multiespectral-01&orientation=landscape",
+  },
 ];
 
 export const sectors = [
